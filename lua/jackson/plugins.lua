@@ -41,10 +41,11 @@ packer.init {
 -- Install your plugins here
 return packer.startup(function(use)
   -- My plugins here
-  use "wbthomason/packer.nvim"  -- have packer manage itself
-  use "nvim-lua/popup.nvim"     -- an implementation of the Popup API from vim in Neovim
-  use "nvim-lua/plenary.nvim"   -- useful lua functions used ny lots of plugins
-  use "jiangmiao/auto-pairs"    -- autocompletes ( { [ "
+  use "wbthomason/packer.nvim"      -- have packer manage itself
+  use "nvim-lua/popup.nvim"         -- an implementation of the Popup API from vim in Neovim
+  use "nvim-lua/plenary.nvim"       -- useful lua functions used ny lots of plugins
+  use "jiangmiao/auto-pairs"        -- autocompletes ( { [ "
+  use "ellisonleao/gruvbox.nvim"    -- colorscheme
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

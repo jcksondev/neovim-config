@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\jackl\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\auto-pairs",
     url = "https://github.com/jiangmiao/auto-pairs"
   },
+  ["gruvbox.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\jackl\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox.nvim",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\jackl\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
