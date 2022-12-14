@@ -1,0 +1,1 @@
+require "jackson.options"
