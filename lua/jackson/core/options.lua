@@ -28,3 +28,4 @@ opt.background = "dark"
 opt.clipboard:append("unnamedplus")
 opt.iskeyword:append("-")
 vim.cmd([[set re=0]])
+opt.swapfile = false
